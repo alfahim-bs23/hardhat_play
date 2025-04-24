@@ -11,3 +11,13 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+1. Run blocks
+```shell
+npx hardhat block-number --network sepolia
+```
+
+2. Run deploy.js
+```shell
+npx hardhat run scripts/deploy.js --network sepolia
+```

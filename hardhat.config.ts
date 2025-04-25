@@ -1,8 +1,9 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-verify");
-require("./tasks/block-number");
-require("hardhat-gas-reporter");
-require("dotenv").config();
+import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-verify";
+import "./tasks/block-number";
+import "hardhat-gas-reporter";
+import "dotenv/config";
+import "@typechain/hardhat";
 
 
 const SEPOLIA_RPC_URL=process.env.SEPOLIA_RPC_URL;

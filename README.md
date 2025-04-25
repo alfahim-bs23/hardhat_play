@@ -20,3 +20,10 @@ npx hardhat block-number --network sepolia
 ```shell
 npx hardhat run scripts/deploy.js --network sepolia
 ```
+
+3. Run test
+```shell
+npx hardhat test
+npx hardhat test --grep store
+```
+
